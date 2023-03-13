@@ -1,6 +1,6 @@
 function Maps() {
     return (
-      <div classNameName="Maps">
+      <div classNameName="Maps view">
         <body>
         <p>Maps</p>
         </body>

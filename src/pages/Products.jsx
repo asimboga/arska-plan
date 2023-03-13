@@ -1,9 +1,7 @@
 function Products() {
   return (
-    <div classNameName="Products">
-      <body>
+    <div classNameName="Products view">
       <p>Products</p>
-      </body>
     </div>
   );
 }

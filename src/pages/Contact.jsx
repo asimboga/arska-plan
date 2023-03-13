@@ -4,11 +4,11 @@ import { Container } from "react-bootstrap"
 
 function Contact() {
   return (
-    <div classNameName="container-fluid">
+    <div className="container-fluid view">
       <div className="row m-5 shadow-lg">
         <div className="col-7">
           <h2 className="text-center">Arska-Plan</h2>
-          <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio porro molestias eveniet totam, labore consequuntur suscipit deserunt voluptatum sint? Fugit harum culpa eligendi atque voluptatum nobis, iusto porro. Modi quos repellat distinctio dicta error nihil! Voluptatibus cupiditate molestiae possimus, ab optio ullam enim perferendis reiciendis! Libero dicta labore perferendis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sunt pariatur consequatur animi atque laborum porro nesciunt corporis esse, quod sequi ipsa! Eum voluptatibus alias rerum quae commodi illum ut asperiores. Nemo, harum! Incidunt enim molestiae fugit cum illo velit. Tenetur perspiciatis eaque animi porro magnam asperiores repellat natus amet!</p>
+          <p className="text-center"> Tenetur perspiciatis eaque animi porro magnam asperiores repellat natus amet!</p>
           <Container className="contact text-center">
             <h2 className="text-center">Contact</h2>
             <div className="contact__list container d-flex text-center p-3">
@@ -27,7 +27,7 @@ function Contact() {
             </div>
           </Container>
         </div>
-        <div className="col-5 ">
+        <div className="col-4 ">
           <img className="rounded-circle img-fluid center" src={logo} alt="logo" />
         </div>
       </div>
